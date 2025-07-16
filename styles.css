@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'farhang';
-  src: url('../fonts/Farhang2-Regular.ttf') format('truetype');
-  src: url('../fonts/Farhang2FaNum-Regular.ttf') format('truetype');
+  src: url('Farhang2-Regular.ttf') format('truetype');
+  src: url('Farhang2FaNum-Regular.ttf') format('truetype');
   src: 
-  url('../fonts/Farhang2-Regular.woff2') format('woff2'),
-  url('../fonts/Farhang2-Regular.woff') format('woff');
+  url('Farhang2-Regular.woff2') format('woff2'),
+  url('Farhang2-Regular.woff') format('woff');
 }
 
 *{
@@ -267,7 +267,7 @@ footer {
   margin-top: 2rem;
   text-align: center;
   font-size: 20px;
-  background: url('../images/footer.jpg');
+  background: url('footer.jpg');
   background-size: cover;
   background-position-y: bottom;
   background-repeat: no-repeat;
