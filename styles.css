@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
   font-family: 'farhang';
   src: url('Farhang2-Regular.ttf') format('truetype');
   src: url('Farhang2FaNum-Regular.ttf') format('truetype');
@@ -22,8 +22,9 @@
 }
 
 body {
-  background-color: var(--white);
+  background-color: #faf9f5;
   font-family: 'farhang';
+    user-select: none;
 }
 
 .d-none{
@@ -34,7 +35,7 @@ body {
 }
 
 .body-inner{
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 header {
@@ -48,7 +49,7 @@ header {
   font-size: 2.5rem;
   cursor: pointer;
   margin-left: 2rem;
-  color: var(--blue);
+  color: var(--yellow);
   cursor: pointer;
 }
 
@@ -61,13 +62,12 @@ header {
 }
      .greeting .red{
           color: var(--red) !important;
-          font-size: 1.5rem;
+          font-size: 1.65rem;
       }
       .greeting .blue{
           color: var(--blue);
           font-size:1.5rem;
       }
-
 .filters {
   display: flex;
   justify-content: space-between; 
@@ -82,7 +82,7 @@ header {
 .filters button { 
   padding: 0.3rem 0.5rem;
   border: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   border: 1px solid var(--blue);
   background-color: var(--white);
   color: var(--blue);
@@ -130,14 +130,14 @@ header {
 }
 
 .redborder{
-border: 1px solid var(--red) !important;
+border: 1px solid var(--yellow) !important;
 color: var(--blue) !important;
 
 }
 .slider-item {
   padding: 0.5rem;
   border-radius: 0.3rem; 
-  font-size: 1.3rem; 
+  font-size: 1rem; 
   display: flex;
   align-items: center;
   color: rgb(71, 71, 71);
@@ -157,7 +157,7 @@ color: var(--blue) !important;
 }
 
 .slider-item.activated{
-  border: 1px solid var(--red);
+  border: 1px solid var(--yellow);
 }
 
 .products {
@@ -182,7 +182,7 @@ color: var(--blue) !important;
   position: relative;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   cursor: pointer;
-  height: 20rem;
+  height: 21rem;
 }
 
 .card:focus .card-inner h3, .card:hover .card-inner h3 , .card:focus .card-inner p, .card:hover .card-inner p , .card:focus .card-price span, .card:hover .card-price span{
@@ -213,7 +213,7 @@ color: var(--blue) !important;
   align-items: center;
   border-radius: 1rem;
   width: 100%;
-  height: 10rem;
+  height: 11rem;
   box-shadow: rgba(255, 166, 0, 0.1)0px 2px;
 }
 .card img {
@@ -231,19 +231,22 @@ color: var(--blue) !important;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  padding: 0.6rem 1rem;
-  margin-top: 0.7rem;
-  margin-bottom: 0.2rem;
-  height: 6.7rem;
+  padding: 0.4rem 1rem;
+  margin-top: 0.4rem;
+  height: 7.1rem;
   }
 
 .card-inner h3 {
-  font-size: 1.2rem; 
+  font-size: 1rem; 
   color: var(--blue);
   text-align: right;
-  height: 3rem;
+  height: 4rem;
 }
 
+        .card-inner div{
+            display:flex;
+            height:3rem;
+        }
 .card-inner p {
   font-size: 0.8rem;
   color: var(--blue);
@@ -275,7 +278,7 @@ footer {
   display: flex;
   align-items: end;
   justify-content: center;
-  margin-bottom : 4rem;
+margin-bottom : 4rem;
 }
 footer a{
   color: #000 !important;
