@@ -277,17 +277,13 @@ footer {
   height: 17rem;
   display: flex;
   align-items: end;
-  justify-content: center;
-margin-bottom : 4rem;
+  justify-content: start;
 }
 footer a{
-  color: #000 !important;
+  color: #fff;
   text-decoration: none;
-  background-color: var(--white);
-  padding: 0.3rem;
-  border-radius: 0.5rem;
-  margin-bottom: -3rem;
   font-size: 1.1rem;
+  padding : 0 1rem 1rem 0;
 }
 
 @media(min-width: 500px) {
